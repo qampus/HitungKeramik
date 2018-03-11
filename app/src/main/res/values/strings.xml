@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HitungKeramik</string>
+    <string name="panjang_kamar">Panjang Kamar</string>
+    <string name="lebar_kamar">Lebar Kamar</string>
+    <string name="panjang_keramik">Panjang Keramik</string>
+    <string name="lebar_keramik">Lebar Keramik</string>
+    <string name="isi_keramik_per_kardus">Isi keramik per kardus</string>
+    <string name="harga_keramik_per_kardus">Harga keramik per kardus</string>
+    <string name="uang_yang_diperlukan">Uang yang diperlukan</string>
+    <string name="luas_kamar">Luas Kamar</string>
+    <string name="luas_keramik">Luas Keramik</string>
+    <string name="jumlah_keramik">Jumlah Keramik</string>
+    <string name="jumlah_dus_kemarik">Jumlah Dus Kemarik</string>
+    <string name="total_harga">Total Harga</string>
+    <string name="dalam_cm">Dalam CM</string>
+</resources>

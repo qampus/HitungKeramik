@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/panjang_kamar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/lebar_kamar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/panjang_keramik" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/lebar_keramik" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/isi_keramik_per_kardus" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingTop="7dp"
+                android:text="@string/harga_keramik_per_kardus" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/panjang_kamar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Dalam CM"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/lebar_kamar"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/dalam_cm"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/panjang_keramik"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/dalam_cm"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/lebar_keramik"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/dalam_cm"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/isi_keramik"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/dalam_cm"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/harga_keramik"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/dalam_cm"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/proses"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Proses" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
