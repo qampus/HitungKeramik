@@ -16,7 +16,7 @@ public class DetailActivity extends AppCompatActivity {
 
 
         super.onCreate(savedInstanceState);
-        setContentView(us.kurniawan.hitungkeramik.R.layout.activity_detail);
+        setContentView(R.layout.activity_detail);
 
         Bundle extras = getIntent().getExtras();
         if (extras != null)
@@ -28,11 +28,11 @@ public class DetailActivity extends AppCompatActivity {
             String JumlahDus = extras.getString("JUMLAHDUSKERAMIK");
             String HargaTotal = extras.getString("TOTAL");
 
-            luas_kamar = (TextView)findViewById(us.kurniawan.hitungkeramik.R.id.luas_kamar);
-            luas_keramik = (TextView)findViewById(us.kurniawan.hitungkeramik.R.id.luas_keramik);
-            jumlah_keramik = (TextView)findViewById(us.kurniawan.hitungkeramik.R.id.jumlah_keramik);
-            jumlah_dus = (TextView)findViewById(us.kurniawan.hitungkeramik.R.id.jumlah_dus);
-            harga_total = (TextView)findViewById(us.kurniawan.hitungkeramik.R.id.harga_total);
+            luas_kamar = (TextView)findViewById(R.id.luas_kamar);
+            luas_keramik = (TextView)findViewById(R.id.luas_keramik);
+            jumlah_keramik = (TextView)findViewById(R.id.jumlah_keramik);
+            jumlah_dus = (TextView)findViewById(R.id.jumlah_dus);
+            harga_total = (TextView)findViewById(R.id.harga_total);
 
             luas_kamar.setText(LuasKamar);
             luas_keramik.setText(LuasKeramik);

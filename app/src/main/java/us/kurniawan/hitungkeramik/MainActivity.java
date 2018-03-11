@@ -18,17 +18,17 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(us.kurniawan.hitungkeramik.R.layout.activity_main);
+        setContentView(R.layout.activity_main);
 
 
-        proses = (Button) findViewById(us.kurniawan.hitungkeramik.R.id.proses);
+        proses = (Button) findViewById(R.id.proses);
 
-        panjang_kamar = (EditText) findViewById(us.kurniawan.hitungkeramik.R.id.panjang_kamar);
-        lebar_kamar = (EditText) findViewById(us.kurniawan.hitungkeramik.R.id.lebar_kamar);
-        panjang_keramik = (EditText) findViewById(us.kurniawan.hitungkeramik.R.id.panjang_keramik);
-        lebar_keramik = (EditText) findViewById(us.kurniawan.hitungkeramik.R.id.lebar_keramik);
-        isi_keramik = (EditText) findViewById(us.kurniawan.hitungkeramik.R.id.isi_keramik);
-        harga_keramik = (EditText) findViewById(us.kurniawan.hitungkeramik.R.id.harga_keramik);
+        panjang_kamar = (EditText) findViewById(R.id.panjang_kamar);
+        lebar_kamar = (EditText) findViewById(R.id.lebar_kamar);
+        panjang_keramik = (EditText) findViewById(R.id.panjang_keramik);
+        lebar_keramik = (EditText) findViewById(R.id.lebar_keramik);
+        isi_keramik = (EditText) findViewById(R.id.isi_keramik);
+        harga_keramik = (EditText) findViewById(R.id.harga_keramik);
 
 
         proses.setOnClickListener(new View.OnClickListener() {
